@@ -25,6 +25,7 @@
         <table style="width:100%" id="myTable">
             <tr>
                 <td id="source" contenteditable="true" rowspan="100">Add your Source</td>
+            </tr>
             <tr>
                 <td id="newDate" contenteditable="true">Add the date</td>
                 <td id="newIssue" contenteditable="true">Add the Issue</td>
