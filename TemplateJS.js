@@ -36,6 +36,6 @@ $(document).ready(function () {
         var linkURL = prompt('Enter a URL:', 'http://');
         var sText = document.getSelection();
         document.execCommand('insertHTML', false, '<a href="' + linkURL + '" target="_blank">' + sText + '</a>');
-      //  document.execCommand('createLink', true, 'http://' + window.getSelection());
+        //  document.execCommand('createLink', true, 'http://' + window.getSelection());
     })
 })
