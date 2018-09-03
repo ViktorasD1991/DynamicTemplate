@@ -1,0 +1,21 @@
+body {
+    -webkit-print-color-adjust: exact !important;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: pre;
+}
+
+.title {
+    width: 100%;
+    background-color: #3f51b55e !important;
+}
+
+@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
