@@ -32,11 +32,11 @@
         </table>
     </div>
 </div>
-<div class="col-md-12 col-sm-12 no-print" id="formButtons">
-    <button id="cloneTable">Add new form</button>
-    <button id="addNewDateIssue">Add new date</button>
-    <button id="jBold">Bold - Unbold</button>
-    <button id="addLink">Add Link</button>
-    <button id="print">Preview/Print</button>
+<div class="col-md-12 col-sm-12 no-print actionButtons" id="formButtons">
+    <button class="btn btn-primary" id="cloneTable"><span class="glyphicon glyphicon-list-alt"></span> Add new form</button>
+    <button class="btn btn-secondary" id="addNewDateIssue"><span class="glyphicon glyphicon-calendar"></span> Add new date</button>
+    <button class="btn btn-info" id="jBold"><span class="glyphicon glyphicon-bold"></span> Bold - Unbold</button>
+    <button class="btn btn-warning" id="addLink"><span class="glyphicon glyphicon-link"></span> Add Link</button>
+    <button class="btn btn-success" id="print"><span class="glyphicon glyphicon-print"></span> Preview/Print</button>
 </div>
 </body>

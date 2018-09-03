@@ -14,10 +14,15 @@ table, th, td {
     background-color: #3f51b55e !important;
 }
 
+.actionButtons {
+    margin-top: 20px;
+}
+
 @media print {
     .no-print, .no-print * {
         display: none !important;
     }
+
     a[href]:after {
         content: none !important;
     }
