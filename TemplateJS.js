@@ -34,6 +34,5 @@ $(document).ready(function () {
 
     $('#addLink').click(function () {
         document.execCommand('createLink',true,'http://'+window.getSelection());
-
     })
 })
