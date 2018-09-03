@@ -33,8 +33,8 @@
     </div>
 </div>
 <div class="col-md-12 col-sm-12 no-print" id="formButtons">
-    <input type="button" id="cloneTable" value="Add new form"/>
-    <input type="button" id="addNewDateIssue" value="Add new date"/>
+    <button id="cloneTable">Add new form</button>
+    <button id="addNewDateIssue">Add new date</button>
     <button id="jBold">Bold - Unbold</button>
     <button id="addLink">Add Link</button>
     <button id="print">Preview/Print</button>
