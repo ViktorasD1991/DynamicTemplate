@@ -1,0 +1,9 @@
+<table style="width:100%" id="myTable">
+<tr>
+<td id="source" contenteditable="true" rowspan="100"></td>
+</tr>
+<tr>
+<td id="newDate" contenteditable="true"></td>
+<td id="newIssue" contenteditable="true"></td>
+</tr>
+</table>

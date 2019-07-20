@@ -1,12 +1,14 @@
 $(document).ready(function () {
     $("#cloneTable").click(function () {
-        $("#list:last").clone().insertBefore($("#formButtons"));
-        $("#list:first tbody tr td").html("");
+        $.get('template', function(data) {
+            $("#list:last").clone().insertBefore($("#formButtons"));
+            $("#list:first").html(data);
+        }, 'text');
     })
 
     $("#addNewDateIssue").click(function () {
         $("#myTable").each(function () {
-            var tds = '<tr>';
+            let tds = '<tr>';
             jQuery.each($('tr:last td', this), function () {
                 tds += '<td contenteditable="true" id="newDate"></td>';
             });
@@ -33,8 +35,8 @@ $(document).ready(function () {
     });
 
     $('#addLink').click(function () {
-        var linkURL = prompt('Enter a URL:', 'http://');
-        var sText = document.getSelection();
+        let linkURL = prompt('Enter a URL:', 'http://');
+        let sText = document.getSelection();
         document.execCommand('insertHTML', false, '<a href="' + linkURL + '" target="_blank">' + sText + '</a>');
         //  document.execCommand('createLink', true, 'http://' + window.getSelection());
     })

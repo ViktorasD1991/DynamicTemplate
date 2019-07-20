@@ -22,11 +22,11 @@
     <div class="col-md-12 col-sm-12" id="list">
         <table style="width:100%" id="myTable">
             <tr>
-                <td id="source" contenteditable="true" rowspan="100">Add your Source</td>
+                <td id="source" contenteditable="true" rowspan="100"></td>
             </tr>
             <tr>
-                <td id="newDate" contenteditable="true">Add the date</td>
-                <td id="newIssue" contenteditable="true">Add the Issue</td>
+                <td id="newDate" contenteditable="true"></td>
+                <td id="newIssue" contenteditable="true"></td>
             </tr>
         </table>
     </div>
